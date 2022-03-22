@@ -21,7 +21,8 @@ createConnection().then(async () => {
     app.use(express.json());
     app.use(cors({
         credentials: true,
-        origin: ['http://localhost:3000', 'http://localhost:4000', 'http://localhost:5000']
+        //origin: ['http://localhost:3000', 'http://localhost:4000', 'http://localhost:5000']
+        origin: ['http://localhost:4200', 'http://localhost:4300', 'http://localhost:5000']
     }));
 
     routes(app);
