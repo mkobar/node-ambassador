@@ -26,3 +26,4 @@ pnpm-debug.log*
 # mysql datastore volume
 .dbdata/
 .dbdata/undo_002
+.env
